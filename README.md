@@ -11,6 +11,8 @@ Step:3- run pip install -r requirements.txt
 Step:4- Start both servers. Run npm start && cd client && npm start
 <br>
 The project will run at localhost:3000
+<br/>
+Watch the working here :- https://imgur.com/0f5p0gp
 <br>
 Download the document from here:- https://drive.google.com/file/d/1atofaSRJ5cHrA4pNNDpb2DMPqJ3bYRZz/view?usp=sharing
 <br>
