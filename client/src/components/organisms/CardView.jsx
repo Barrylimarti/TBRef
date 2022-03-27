@@ -50,11 +50,9 @@ class CardView extends Component {
                 <div className="row thirdCardText">
                   <a
                     href={
-                      condition === "Melanoma"
-                        ? "https://www.webmd.com/melanoma-skin-cancer/default.htm"
-                        : condition === "Nevus"
-                        ? "https://en.wikipedia.org/wiki/Nevus"
-                        : "https://www.webmd.com/skin-problems-and-treatments/picture-of-seborrheic-keratosis"
+                      condition === "Tuberculosis"
+                        ? "https://en.wikipedia.org/wiki/Tuberculosis"
+                        : "https://www.who.int/tb/publications/Radiography_TB_factsheet.pdf"
                     }
                   >
                     <button type="button" class="btn btn-secondary btnText">
@@ -89,10 +87,10 @@ class CardView extends Component {
                 </div>
                 <div className="col-6 mt-3 text-center">
                   <button type="button" class="btn btn-primary btn-lg btnText">
-                    Upload to Maple
+                    Upload to 1mg
                   </button>
                   <p className="smallButtonText pt-2 text-center">
-                    Transfer To Maple
+                    Transfer To 1mg
                   </p>
                 </div>
               </div>

@@ -59,11 +59,9 @@ class CardViewOnly extends Component {
                 <div className="row thirdCardText">
                   <a
                     href={
-                      condition === "Melanoma"
-                        ? "https://www.webmd.com/melanoma-skin-cancer/default.htm"
-                        : condition === "Nevus"
-                        ? "https://en.wikipedia.org/wiki/Nevus"
-                        : "https://www.webmd.com/skin-problems-and-treatments/picture-of-seborrheic-keratosis"
+                      condition === "Tuberculosis"
+                        ? "https://en.wikipedia.org/wiki/Tuberculosis"
+                        : "https://www.who.int/tb/publications/Radiography_TB_factsheet.pdf"
                     }
                   >
                     <button type="button" class="btn btn-secondary btnText">
